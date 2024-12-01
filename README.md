@@ -1,6 +1,6 @@
 # clothingapp211193
 
-clothing app - MIS
+clothing app - MIS (Mobile information systems)
 
 ## Getting Started
 
