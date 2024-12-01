@@ -93,7 +93,7 @@ class ClothingListScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
                     Expanded(
-                      child: Image.network(
+                      child: Image.asset(
                         clothingItem['image']!,
                         fit: BoxFit.cover,
                       ),
@@ -144,7 +144,7 @@ class ClothingDetailsScreen extends StatelessWidget {
         children: [
           Expanded(
             flex: 5,
-            child: Image.network(
+            child: Image.asset(
               clothingItem['image']!,
               fit: BoxFit.cover,
             ),
